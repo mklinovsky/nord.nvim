@@ -4,17 +4,17 @@ local utils = require("nord.utils")
 local nord = {}
 
 nord.normal = {
-  a = { fg = c.polar_night.bright, bg = c.frost.ice },
+  a = { fg = c.polar_night.bright, bg = c.frost.artic_water },
   b = { fg = c.snow_storm.brighter, bg = c.polar_night.bright },
   c = { fg = c.snow_storm.brighter, bg = c.polar_night.brighter },
 }
 
 nord.insert = {
-  a = { fg = c.polar_night.bright, bg = c.snow_storm.origin },
+  a = { fg = c.polar_night.bright, bg = c.aurora.green },
 }
 
 nord.visual = {
-  a = { fg = c.polar_night.bright, bg = c.frost.polar_water },
+  a = { fg = c.polar_night.bright, bg = c.aurora.purple },
 }
 
 nord.replace = {
@@ -22,7 +22,7 @@ nord.replace = {
 }
 
 nord.command = {
-  a = { fg = c.polar_night.bright, bg = c.aurora.purple },
+  a = { fg = c.polar_night.bright, bg = c.aurora.orange },
 }
 
 nord.inactive = {
